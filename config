@@ -1,0 +1,7 @@
+# Elasticsearch Tunnel
+Host estunnel
+HostName 3.16.67.225
+User ec2-user
+IdentitiesOnly yes
+IdentityFile ~/.Dashboard/Kibana_keypair.pem
+LocalForward 9200 https://vpc-kibanaes-7hf47ssvnzvtrlmkokag3l4adm.us-east-2.es.amazonaws.com:443
